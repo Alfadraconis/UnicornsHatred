@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
 
-    // Update is called once per frameAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    // Update is called once per frame
     void Update () {
 
 
@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour {
             else
                anim.SetBool("isCrouching", false);
 
-            if (Input.GetButtonDown("z"))
+            if (Input.GetButtonDown("Shoot1"))
                anim.SetBool("isShooting", true);
             else
                anim.SetBool("isShooting", false);
@@ -164,7 +164,7 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
 
-        IEnumerator Hurt()
+        IEnumerator Player_HurtR()
         {
             isHurting = true;
             rb.velocity = Vector2.zero;
