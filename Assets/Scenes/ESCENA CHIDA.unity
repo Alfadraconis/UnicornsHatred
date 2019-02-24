@@ -510,7 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35832764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.98, y: 1.2799996, z: -10}
+  m_LocalPosition: {x: -13.87, y: 1.2799996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 544677352}
@@ -1553,7 +1553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291478040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.98, y: 1.2799996, z: -10}
+  m_LocalPosition: {x: -13.87, y: 1.2799996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5154,12 +5154,12 @@ PrefabInstance:
     - target: {fileID: 8116145189448425107, guid: f6a343a9c49786143a3f2a5e97a98a68,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.3899206
+      value: 0.35255754
       objectReference: {fileID: 0}
     - target: {fileID: 8116145189448425107, guid: f6a343a9c49786143a3f2a5e97a98a68,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.5483265
+      value: 0.4736004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6a343a9c49786143a3f2a5e97a98a68, type: 3}
@@ -14706,7 +14706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875653678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.98, y: -0.89, z: 0}
+  m_LocalPosition: {x: -13.87, y: -0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2100293451}
@@ -14737,7 +14737,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1875653678}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 06d675f0502c37b498db85149f5234b0, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
