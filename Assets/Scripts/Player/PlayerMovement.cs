@@ -183,7 +183,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
 
-        IEnumerator Player_HurtR()
+        IEnumerator Player_Hurt()
         {
             isHurting = true;
             rb.velocity = Vector2.zero;

@@ -60,8 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EnemySmoke\Attack.cs" />
-    <Compile Include="Assets\Scripts\EnemySmoke\EnemySmoke.cs" />
+    <Compile Include="Assets\Scripts\EnemySmoke\EnemySmokeController.cs" />
+    <Compile Include="Assets\Scripts\EnemySmoke\SimplePatrol.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Reference Include="Cinemachine">
