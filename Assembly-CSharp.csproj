@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EmptyFlip.cs" />
     <Compile Include="Assets\Scripts\EnemySmoke\EnemySmokeController.cs" />
     <Compile Include="Assets\Scripts\EnemySmoke\SimplePatrol.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />

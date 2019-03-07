@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour {
 
     float horizontalMove = 0f;
     Rigidbody2D rb;
-    
-    float dirX, moveSpeed = 5f;
+
+    public float dirX, moveSpeed = 6f;
     int healthPoints = 3;
     bool isHurting, isDead;
     bool facingRight = true;
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftShift))
             moveSpeed = 10f;
         else
-            moveSpeed = 5f;
+            moveSpeed = 6f;
 
         SetAnimationState();
 
@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour {
                 anim.SetBool("isCrouching", false);
         }
 
-            if (Mathf.Abs(dirX) == 5 && rb.velocity.y == 0)
+            if (Mathf.Abs(dirX) == 6 && rb.velocity.y == 0)
                 anim.SetBool("isWalking", true);
 
             if (Mathf.Abs(dirX) == 10 && rb.velocity.y == 0)
